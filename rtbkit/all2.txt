@@ -1,0 +1,34 @@
+sudo apt-get install linux-tools-generic libbz2-dev python-dev scons\
+sudo apt-get install libtool liblzma-dev libblas-dev make automake \
+                       ccache ant openjdk-7-jdk libcppunit-dev doxygen \
+                       libcrypto++-dev libACE-dev gfortran liblapack-dev \
+                       libevent-dev libssh2-1-dev libicu-dev libv8-dev \
+                       g++ google-perftools libgoogle-perftools-dev \
+                       zlib1g-dev git pkg-config valgrind autoconf \
+                       libcurl4-openssl-dev cmake libsigc++-2.0-dev
+					   
+					   
+					   
+					   
+					   
+1	libACE error
+	------------
+	
+	sudo apt-get install libcrypto++-dev libace-6.3.3 gfortran liblapack-dev
+
+2install boost
+
+sudo apt-get install libboost-all-dev
+	
+3 zeromq error make install
+https://github.com/zeromq/libzmq/issues/1385
+ln -s /usr/bin/libtoolize /usr/bin/libtool
+
+4 autogen unzip issue
+sudo apt-get install unzip
+
+-----------------------------
+how to check left space aws
+-----------------------------
+df -h
+-----------------------------

@@ -1,0 +1,78 @@
+http://openssp.org
+https://ibytecode.com/blog/how-to-configure-apache-tomcat-in-eclipse-ide/
+
+http://1cap-onecap.blogspot.com/2010/10/enable-tomcat-web-server-on-xampp.html
+
+http://coenraets.org/blog/2011/11/set-up-an-amazon-ec2-instance-with-tomcat-and-mysql-5-minutes-tutorial/
+
+
+https://www.youtube.com/watch?v=pKMgr8uNvGM
+
+
+54.208.7.2
+
+
+
+$ sudo apt-get install linux-tools-generic libbz2-dev python-dev scons\
+                       libtool liblzma-dev libblas-dev make automake \
+                       ccache ant openjdk-7-jdk libcppunit-dev doxygen \
+                       libcrypto++-dev libACE-dev gfortran liblapack-dev \
+                       libevent-dev libssh2-1-dev libicu-dev libv8-dev \
+                       g++ google-perftools libgoogle-perftools-dev \
+                       zlib1g-dev git pkg-config valgrind autoconf \
+                       libcurl4-openssl-dev cmake libsigc++-2.0-dev
+
+					   
+					   Package 'openjdk-7-jdk' has no installation candidate
+sudo add-apt-repository ppa:openjdk-r/ppa  
+sudo apt-get update   
+sudo apt-get install openjdk-7-jdk  
+
+
+
+
+sudo apt-get install linux-tools-generic libbz2-dev python-dev scons\
+                       libtool liblzma-dev libblas-dev make automake \
+                       ccache ant openjdk-7-jdk libcppunit-dev doxygen \
+                       libcrypto++-dev libace-6.3.3 gfortran liblapack-dev \
+                       libevent-dev libssh2-1-dev libicu-dev libv8-dev \
+                       g++ google-perftools libgoogle-perftools-dev \
+                       zlib1g-dev git pkg-config valgrind autoconf \
+                       libcurl4-openssl-dev cmake libsigc++-2.0-dev
+					   
+					   
+					   sudo apt-get install libcrypto++-dev libace-6.3.3 gfortran liblapack-dev	   
+					   
+					   mkdir -p home/rtbkit/local/bin
+PATH="/home/rtbkit/local/bin:$PATH"
+ 
+mkdir -p home/rtbkit/local/lib
+export LD_LIBRARY_PATH="/home/rtbkit/local/lib:$LD_LIBRARY_PATH"
+ 
+export PKG_CONFIG_PATH="/home/rtbkit/local/lib/pkgconfig/:/home/rtbkit/local/lib/pkg-config/"
+
+
+sudo add-apt-repository ppa:user/ppa-name
+----------------------------------------------------------------------------------------------------
+current
+========
+
+LD_LIBRARY_PATH=/home/rtbkit/local/lib:
+PATH=/home/rtbkit/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+PKG_CONFIG_PATH=/home/rtbkit/local/lib/pkgconfig/:/home/rtbkit/local/lib/pkg-config/
+
+
+
+
+docs.
+=======
+LD_LIBRARY_PATH=/home/rtbkit/local/lib:
+PATH=/home/rtbkit/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+PKG_CONFIG_PATH=/home/rtbkit/local/lib/pkgconfig/:/home/rtbkit/local/lib/pkg-config/
+
+git clone https://github.com/google/protobuf/releases
+
+git clone https://github.com/datacratic/zeromq3-x.git
+
+git clone https://github.com/DOCGroup/ACE_TAO.git
+
